@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Yoru Garage</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Libertinus+Sans:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <style>
+
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="logo">Yoru Garage</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#carros">Carros</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="intro">
+        <h1>Bem-vindo à Yoru Garage</h1>
+        <p>
+            Uma exposição virtual dedicada aos ícones do JDM. Explore os lendários Skyline, RX-7 e Supra,
+            símbolos da cultura automotiva japonesa.
+        </p>
+    </section>
+
+  <section id="carros" class="container">
+    <div class="list">
+        <div class="item">
+            <div class="car-img">
+                <img src="./img/skyline.png" alt="img sky">
+            </div>
+            <div class="content">
+                <h2>Nissan Skyline</h2>
+                <p class="description">
+                    O Nissan Skyline GT-R R34, produzido de 1999 a 2002, traz o motor RB26DETT 2.6L biturbo
+                    com tração integral ATTESA E-TS e sistema Super-HICAS de direção traseira. Com cerca de
+                    280 cv e suspensão multilink, o R34 oferece dirigibilidade excepcional. Seu display
+                    multifuncional exibe dados em tempo real, reforçando seu foco em performance e precisão
+                    nas pistas.
+                </p>
+                <a href="https://pt.wikipedia.org/wiki/Nissan_Skyline" target="_blank" class="info">Saiba mais</a>
+            </div>
+        </div>
+
+        <div class="item">
+            <div class="car-img">
+                <img src="./img/mazda.png" alt="img sky">
+            </div>
+            <div class="content">
+                <h2>Mazda RX7</h2>
+                <p class="description">
+                    O Mazda RX-7, produzido entre 1992 e 2002, é um dos ícones do JDM. Equipado com motor
+                    rotativo 13B e turbocompressor duplo sequencial, destaca-se pela entrega linear de
+                    potência e alta rotação. Sua carroceria leve, tração traseira e distribuição de peso
+                    50:50 garantem excelente equilíbrio e desempenho dinâmico, consolidando-o como
+                    referência entre esportivos japoneses.
+                </p>
+                <a href="https://pt.wikipedia.org/wiki/Mazda_RX-7" target="_blank" class="info">Saiba mais</a>
+            </div>
+        </div>
+
+        <div class="item active">
+            <div class="car-img">
+                <img src="./img/supra.png" alt="img sky">
+            </div>
+            <div class="content">
+                <h2>Toyota Supra</h2>
+                <p class="description">
+                    O Toyota Supra A80, produzido entre 1993 e 2002, é um dos modelos mais famosos do JDM.
+                    Equipado com motor 2JZ-GTE de seis cilindros em linha e dois turbocompressores, oferece
+                    alto potencial de preparação e desempenho notável. Sua tração traseira, robustez
+                    mecânica e aerodinâmica refinada consolidam sua reputação como um dos esportivos
+                    japoneses mais respeitados.
+                </p>
+                <a href="https://pt.wikipedia.org/wiki/Toyota_Supra" target="_blank" class="info">Saiba mais</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="setas">
+        <button id="prev"><img src="./img/arrow.png" alt="seta di"></button>
+        <button id="next"><img src="./img/arrow.png" alt="seta es"></button>
+    </div>
+
+    <div class="indicadores">
+        <div class="number">01</div>
+        <ul>
+            <li class="active"></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+ </section>
+
+    <section id="contato" class="contact">
+        <h2>Entre em contato</h2>
+        <p>Email: <a href="mailto:luisatoledo.ti@gmail.com">luisatoledo.ti@gmail.com</a></p>
+    </section>
+
+    <script src="./scripts.js"></script>
+</body>
+
+</html>
